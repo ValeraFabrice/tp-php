@@ -21,7 +21,7 @@ require_once __DIR__ . '/../config/database.php';
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
