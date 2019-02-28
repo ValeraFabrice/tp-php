@@ -1,0 +1,51 @@
+TP PHP / MySQL:
+
+Etape 0:
+Pour réaliser ce TP, vous créerez un dépôt Github. Vous utiliserez l'outil Git afin de versionner votre projet.
+
+Etape 1:
+Nous allons créer un site présentant des véhicules. Vous devrez créer une base de données que vous appellerez "tp-php".
+A l'intérieur, vous créerez une table "car" avec les colonnes suivantes :
+
+- id (INT)
+- brand (VARCHAR)
+- model (VARCHAR)
+- price (DECIMAL)
+- release_date (YEAR)
+- photo (VARCHAR)
+
+Etape 2:
+Vous allez créer une page PHP : add.php
+Elle contiendra un formulaire permettant d'ajouter un véhicule dans la base de données.
+Vous n'oublierez pas d'inclure le header et le footer.
+
+Le formulaire contiendra les champs suivants :
+
+- Marque (requis et 2 caractères minimum)
+- Modèle (requis et non vide)
+- Prix (requis et le prix doit être de 10 000 euros minimum)
+- L'année de sortie (requis) est un select dynamique avec les années de 2019 à 1950
+- La photo est un champ de type file (requis)
+
+Il faudra bien vérifier le type du fichier (jpeg, jpg, png, gif) et son poids (2Mo maximum).
+On fera bien attention de renommer le fichier et de conserver le chemin en base de données
+pour pouvoir afficher l'image facilement.
+
+Pour vous aider dans la validation du formulaire (affichage) : https://getbootstrap.com/docs/4.1/components/forms/#server-side
+
+Etape 3:
+Vous créerez une page permettant d'afficher la liste des véhicules en base de données.
+L'affichage sera sous forme de tableau (https://getbootstrap.com/docs/4.1/content/tables/).
+Dans le tableau, on affichera l'id, la photo, la marque, le modèle, le prix et l'année de chaque modèle.
+Le prix sera formaté de "10000.00" à "10 000,00 euros".
+
+Etape 4:
+Voir un véhicule seul.
+
+Etape 5:
+Modifier un véhicule.
+Supprimer un véhicule.
+
+Etape 6:
+Login / Inscription. Seul un utilisateur connecté pourra ajouter / modifier ou supprimer un véhicule.
+----
